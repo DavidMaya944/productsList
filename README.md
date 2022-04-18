@@ -22,8 +22,10 @@ Los RecyclerView no son más que listas de tarjetas que se van a mostrar en la p
 Ejemplo: 
 
 public Holder(@NonNull View itemView) {
+
             super(itemView);
             variable = itemView.findViewById(R.id.elemento_xml);
+            
         }
         
 El itemview del parametro es lo que va a indicar que el cambio que se haga solo va a afectar a ese item y no a todos los items de la lista.
